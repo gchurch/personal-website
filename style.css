@@ -6,3 +6,27 @@ iframe {
 	display: block;
 	margin: 0 auto;
 }
+
+#processor {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
