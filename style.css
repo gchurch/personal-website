@@ -1,3 +1,8 @@
 h1, h2, h3, p {
 	text-align: center
 }
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
