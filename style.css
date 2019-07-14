@@ -7,9 +7,31 @@ iframe {
 	margin: 0 auto;
 }
 
-#processor {
+.project {
+	border: 1px solid black;
+	width: 80%;
+	margin: 2% auto;
+}
+
+#web_tech_image {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+
+#processor_image {
   display: block;
   margin: 0 auto;
+  width: 80%;
+}
+
+
+#raytracer_image {
+  width: 100%;
+}
+
+#rasterizer_image {
+  width: 100%;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -28,10 +50,4 @@ iframe {
   content: "";
   clear: both;
   display: table;
-}
-
-.project {
-	border: 1px solid black;
-	width: 80%;
-	margin: 2% auto;
 }
