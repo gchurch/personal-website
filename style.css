@@ -1,12 +1,24 @@
 body {
-	font-family: "Arial", Gadget, sans-serif;
+  font-family: "Arial", Gadget, sans-serif;
 }
 
 h1 {
   text-align: center;
 }
 
+#social {
+  width: 80%;
+  margin: 2% auto;
+  padding: 1%;
+}
+
 #intro {
+  width: 80%;
+  margin: 2% auto;
+  padding: 1%;
+}
+
+#portfolio {
   width: 80%;
   margin: 2% auto;
   padding: 1%;
@@ -43,7 +55,7 @@ iframe {
 }
 
 #processor_image {
-  width: 80%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
