@@ -1,5 +1,23 @@
-h1, h2, h3, p {
+body {
+	font-family: "Arial", Gadget, sans-serif;
+}
+
+h1 {
   text-align: center;
+}
+
+#intro {
+  width: 80%;
+  margin: 2% auto;
+  padding: 1%;
+}
+
+.project {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 80%;
+  margin: 2% auto;
+  padding: 1%;
 }
 
 iframe {
@@ -8,21 +26,13 @@ iframe {
 }
 
 #game_video {
-  width: 640px;
-  height: 360px;
-  border-style: none;
+  width: 100%;
+  height: 400px;
 }
 
 #app_video {
-  width: 560px;
-  height: 315px;
-  border-style: none;
-}
-
-.project {
-  border: 1px solid black;
-  width: 80%;
-  margin: 2% auto;
+  width: 100%;
+  height: 400px;
 }
 
 #web_tech_image {
