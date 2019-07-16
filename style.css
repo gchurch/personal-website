@@ -63,21 +63,22 @@ iframe {
 }
 
 
-#raytracer_image {
-  max-width: 100%;
-  height: auto;
-}
-
-#rasterizer_image {
-  max-width: 100%;
-  height: auto;
-}
-
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
+.column1 {
   float: left;
   max-width: 48%;
   padding: 1%;
+}
+
+.column2 {
+  float: left;
+  max-width: 31.3%;
+  padding: 1%;
+}
+
+.row img {
+  max-width: 100%;
+  height: auto;
 }
 
 .row {
