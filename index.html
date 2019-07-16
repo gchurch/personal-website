@@ -12,44 +12,64 @@
 </head>
 <body>
   <h1>George Church</h1>
+
   <div id="social">
     <p><a href='https://github.com/gchurch'><i class="fa fa-github"></i>GitHub</a></p>
     <p><a href='https://www.linkedin.com/in/george-church-59987b188'><i class="fa fa-linkedin-square"></i>LinkedIn</a></p>
     <p><b><i class="fa fa-envelope"></i>email:</b> gc14768@my.bristol.ac.uk</p>
   </div>
+
   <div id="intro">
     <h3>Intro</h3>
     <p>I am an MEng Computer Science graduate from the University of Bristol (Upper Second Class).</p>
   </div>
+
   <div id="portfolio">
     <h2>Portfolio</h2>
   </div>
+
   <div class="project">
     <h3>Dissertation</h3>
     <p>For my 4th year dissertation, I created a simulator of London Stock Exchange's Turquoise Plato venue in Python. My dissertation can be found <a href="https://github.com/gchurch/DarkPool/blob/master/thesis.pdf">here</a>. My work was published in an academic journal.</p>
   </div>
+
   <div class="project">
     <h3>Games Project - Reality Bomb</h3>
     <p>In my 3rd year, I worked in a group of six students to create a game. We created Reality Bomb: an augmented reality pass-the-bomb game. The create was created using Unity.</p>
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/220558234' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
     <p>The GitHub repository for this project can be found <a href="https://github.com/mikejcooper/Reality-Bomb---AR-Mobile-Game">here</a>. The report that we created for this project can be found <a href="https://github.com/gchurch/university-work/blob/master/games_project.pdf">here</a>.</p>
   </div>
+
   <div class="project">
     <h3>Web Technology</h3>
-    <p>I took a Web Technology unit in my 3rd year. Using the skills that I learnt, I created a little website as a personal project. The website allows users to upload images which are then displayed on the site. Users can also place comments on uploaded images. The website was created with Node.js and uses the Express web framework. For more information, see the <a href="https://github.com/gchurch/ShareImages">GitHub repository</a>.</p>
+    <p><a href="https://github.com/gchurch/ShareImages">GitHub repository</a></p>
+    <p>I took the Web Technology unit in my 3rd year. Using the skills that I learnt, I created a little website as a personal project. The website allows users to upload images which are then displayed on the site. Users can also place comments on uploaded images. The website was created with Node.js and uses the Express web framework. SQLite is used for the database. The mustache template system is used to render the html for each page. The multer middleware package is used to upload the images to the web server.</p>
     <img id="web_tech_image" src="https://raw.githubusercontent.com/gchurch/ShareImages/master/screenshots/home.png" alt="Screenshot of website home page"/>
   </div>
+
   <div class="project">
     <h3>Superscalar Processor Simulator</h3>
-    <p>In my 4th year I took the Advanced Computer Architecture unit. This unit involved us creating a simulator of a superscalar processor. I decided to create mine using C++. After finished the unit I continued working on it as a personal project and added a GUI. The project can be found <a href="https://github.com/gchurch/processor">here</a>.</p>
+    <p><a href="https://github.com/gchurch/processor">GitHub repository</a></p>
+    <p>In my 4th year I took the Advanced Computer Architecture unit. This unit involved us creating a simulator of a superscalar processor. I decided to create mine using C++. Features of the processor include:</p>
+    <ul>
+      <li>A 5-stage pipeline (fetch, decode/issue, dispatch, execute, commit).</li>
+      <li>Reservation stations to store instructions that are waiting for operands to be computed.</li>
+      <li>Multiple execution units (load/store unit, ALUs, branch unit).</li>
+      <li>Out-of-order execution of instructions using a Reorder Buffer.</li>
+      <li>Register Renaming by use of a Register Allocation Table (RAT). This eliminates false data dependencies between instructions.</li>
+      <li>Simple branch prediction (predicts that every branch will be taken).</li>
+    </ul>
+    <p>I also created a graphical display of the processor with SDL. Below is a GIF of the graphical display.</p>
     <img id="processor_image" src="https://raw.githubusercontent.com/gchurch/processor/master/demo.gif" alt="GIF showing processor operation"/>
   </div>
+
   <div class="project">
     <h3>Cotwold Water Park App</h2>
     <p>In my 2nd year, I worked in a group of six students to create an app for the Cotswold Water Park.</p>
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/hY0L1jHRs_Q' frameborder='0' allowfullscreen></iframe></div>
     <p>The GitHub repository for this project can be found <a href="https://github.com/gavin-parker/Cotswold-Water-Park">here</a>.</p>
   </div>
+
   <div class="project">
     <h3>Computer Graphics</h3>
     <p> I took the Computer Graphics unit in my 3rd year. The image on the left shows a screenshow from the <a href="https://github.com/gchurch/raytracer">raytracer</a> that I created. The GIF on the right shows the <a href="https://github.com/gchurch/rasterizer">rasterizer</a> that I created.</p>
@@ -62,9 +82,11 @@
       </div>
     </div>
   </div>
+
   <div class="project">
     <h3>Collection of Work</h3>
     <p>I have a repository on GitHub that holds a collection of some of the reports that I wrote while at university. The repository can be found <a href="https://github.com/gchurch/university-work">here</a>.</p>
   </div>
+
 </body>
 </html>
