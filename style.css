@@ -6,6 +6,19 @@ h1 {
   text-align: center;
 }
 
+#profile_picture {
+  width: 30%;
+  margin: 2% auto;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#profile_picture img {
+  max-width: 100%;
+  height: auto;
+}
+
 #social {
   width: 80%;
   margin: 2% auto;
