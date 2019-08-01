@@ -111,3 +111,8 @@ iframe {
   clear: both;
   display: table;
 }
+
+video {
+  width: 100%;
+  height: auto;
+}
